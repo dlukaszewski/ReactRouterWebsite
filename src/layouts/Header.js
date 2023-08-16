@@ -8,19 +8,19 @@ import img3 from "../images/header3.jpg";
 import img4 from "../images/header4.jpg";
 
 const FirstImage = () => {
-	return <img src={img1} alt='Miasto'></img>;
+	return <img src={img1} alt='NY City'></img>;
 };
 const SecondImage = () => {
-	return <img src={img2} alt='Miasto'></img>;
+	return <img src={img2} alt='Person at sunset'></img>;
 };
 const ThirdImage = () => {
-	return <img src={img3} alt='Miasto'></img>;
+	return <img src={img3} alt='Random City at night'></img>;
 };
 const FourthImage = () => {
-	return <img src={img4} alt='Miasto'></img>;
+	return <img src={img4} alt='Random City at night'></img>;
 };
 const ErrorPage = () => {
-	return <img src={img1} alt='Miasto'></img>;
+	return <img src={img1} alt='NY city'></img>;
 };
 const Header = () => {
 	// const images = [img1, img2, img3, img4];
