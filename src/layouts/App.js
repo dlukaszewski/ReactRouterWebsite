@@ -12,7 +12,7 @@ class App extends Component {
 	state = {};
 	render() {
 		return (
-			<Router>
+			<Router basename={process.env.PUBLIC_URL}>
 				<div className='app'>
 					<h1>Hello There</h1>
 					<header>{<Header />}</header>
